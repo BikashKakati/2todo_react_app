@@ -1,0 +1,58 @@
+.todo-list-container {
+    margin-top: 20px;
+    max-height: 300px;
+    height: 100%;
+    overflow: auto;
+}
+
+.todo-list-container li {
+    display: flex;
+    position: relative;
+    align-items: center;
+    list-style: none;
+    background: rgb(43, 151, 219);
+    margin-bottom: 10px;
+    padding: 8px 20px 9px 15px;
+    color:var(--font-color);
+    font-size: 18px;
+    text-transform: capitalize;
+    /* border: 1px solid rgb(165, 168, 197); */
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+}
+.todo-container li:hover{
+    background: rgb(3, 86, 202);
+}
+.todo-list-container li span {
+    margin: 0 30px 0 15px;
+    text-transform: capitalize;
+}
+
+.todo-list-container li .fa-trash {
+    position: absolute;
+    background: rgb(239, 59, 4);
+    padding: 10px 15px;
+    border-radius: 3px;
+    color:var(--font-color);
+    right: -48px;
+    transition: all 0.3s ease;
+}
+
+.todo-list-container li .fa-edit {
+    position: absolute;
+    background: rgb(43, 235, 9);
+    padding: 10px 15px;
+    border-radius: 3px;
+    color:var(--font-color);
+    right: -48px;
+    transition: all 0.3s ease;
+}
+
+.todo-list-container li:hover .fa-trash {
+    right: 0px;
+}
+
+.todo-list-container li:hover .fa-edit {
+    right: 50px;
+}

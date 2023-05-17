@@ -1,0 +1,31 @@
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px 2px 10px 2px;
+}
+
+.footer span {
+    font-size: 20px;
+    color:var(--font-color);
+    text-transform: capitalize;
+    user-select: none;
+}
+
+.footer button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(43, 151, 219);
+    color:var(--font-color);
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+
+}
+
+.footer button:hover {
+    background: rgb(3, 90, 211);
+}
