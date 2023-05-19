@@ -2,9 +2,13 @@
 
 :root{
     font-size: 62.5%;
-    --bg-color: #f8f4f4;
+    --btn:#eee;
+    --bg-color: #ccc;
     --font-color: #000;
-    background: #ccc;
+    --s-red: #f11111;
+    --s-green: #09ff00;
+    --s-blue: #0c6af8;
+    --d-blue: #0817e9;
 }
 /* .App{
     max-width: 124rem;
@@ -23,6 +27,9 @@
     --bg-color: rgb(53, 55, 57);
     --font-color: #fff;
 } */
+body{
+ background: var(--bg-color);
+}
 
 
 
@@ -33,7 +40,7 @@
     margin: 50px auto; 
     padding: 30px;
     border-radius: 4px;
-    background: #ccc;
+    background: var(--bg-color);
     /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); */
     transition: background 0.5s;
 }
@@ -47,7 +54,7 @@
 .todo-container header .dark-btn{
     width: 45px;
     border-radius: 12px;
-    background: rgb(214, 213, 213);
+    background:var(--btn);
     padding: 2px 3px;
     display: flex;
     transition: padding-left 0.5s, background 0.5s;

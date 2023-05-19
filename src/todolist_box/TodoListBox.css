@@ -10,9 +10,9 @@
     position: relative;
     align-items: center;
     list-style: none;
-    background: rgb(43, 151, 219);
+    background: var(--s-blue);
     margin-bottom: 10px;
-    padding: 8px 20px 9px 15px;
+    padding: 15px 20px;
     color:var(--font-color);
     font-size: 18px;
     text-transform: capitalize;
@@ -20,7 +20,7 @@
     overflow: hidden;
 }
 .todo-container li:hover{
-    background: rgb(3, 86, 202);
+    background: var(--d-blue);
 }
 .todo-list-container li span {
     margin: 0 30px 0 15px;
@@ -29,7 +29,7 @@
 
 .todo-list-container li .fa-trash {
     position: absolute;
-    background: rgb(239, 59, 4);
+    background: var(--s-red);
     padding: 10px 15px;
     border-radius: 3px;
     color:var(--font-color);
@@ -39,7 +39,7 @@
 
 .todo-list-container li .fa-edit {
     position: absolute;
-    background: rgb(43, 235, 9);
+    background: var(--s-green);
     padding: 10px 15px;
     border-radius: 3px;
     color:var(--font-color);
@@ -48,7 +48,7 @@
 }
 
 .todo-list-container li:hover .fa-trash {
-    right: 0px;
+    right: 1px;
 }
 
 .todo-list-container li:hover .fa-edit {
