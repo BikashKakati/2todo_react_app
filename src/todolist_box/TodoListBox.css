@@ -16,9 +16,7 @@
     color:var(--font-color);
     font-size: 18px;
     text-transform: capitalize;
-    /* border: 1px solid rgb(165, 168, 197); */
     border-radius: 10px;
-    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); */
     overflow: hidden;
 }
 .todo-container li:hover{
