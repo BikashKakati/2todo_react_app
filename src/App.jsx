@@ -53,10 +53,24 @@ const App = () => {
   )
 }
 const Header = () => {
+  const LOCAL_STORAGE_KEY = "Theme"
+  const [theme, setTheme] = useState(false)
+
+  useEffect(()=>{
+    const Theme = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
+    setTheme(Theme)
+  },[])
+
+  useEffect(()=>{
+    localStorage.setItem(LOCAL_STORAGE_KEY,JSON.stringify(theme))
+  },[theme])
+
+  theme ? document.querySelector("body").classList.add("dark-theme") : document.querySelector("body").classList.remove("dark-theme")
   return (
     <header>
       <h1>TodoList</h1>
-      <div className="dark-btn"></div>
+      <div className={theme ? "dark-btn on":"dark-btn"} onClick={()=>setTheme(!theme)}>
+      </div>
     </header>
   )
 }
