@@ -1,5 +1,13 @@
-# TodoList-app(React.JS)
-<p>This is a TodoList Web App using <b>React.js</b> where we can do <b>CRUD</b> operation or the following things like Add a task, Remove the task, Edit a task , Delete all tasks, also changing the theme to Dark and Light. Using Local Storage we can save all the actions for future.</p>
+# TodoList-app(React.JS and Local Storage)
+<p>This is a TodoList Web App using <b>React.js</b> where we can do <b>CRUD</b> operation. <br>We can do following things like -</p>
+  <ul>
+    <li>Add a task</li>
+    <li>Remove the task</li>
+    <li>Edit a task</li>
+    <li>Delete all tasks</li>
+    <li>Changing theme button to Dark and Light</li>
+    <li>All the actions are save in Local Storage for future</li>
+   </ul>
 
 <h2 align="center">Screenshots 📸</h2>
 <br>
