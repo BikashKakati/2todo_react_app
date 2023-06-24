@@ -1,4 +1,5 @@
-# TodoList-app(React.JS and Local Storage)
+# TodoList-app(Practise Project)
+## Using React Js and Local storage, CRUD app
 <p>This is a TodoList Web App using <b>React.js</b> where we can do <b>CRUD</b> operation. <br>We can do following things like -</p>
   <ul>
     <li>Add a task</li>
